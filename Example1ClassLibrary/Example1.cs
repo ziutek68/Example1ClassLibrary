@@ -76,7 +76,7 @@ namespace Example1ClassLibrary
                 var rand = new System.Random();
                 var wyn = rand.NextDouble() * GetIntParameter("MaxValue", 1000);
                 fouts = "Result=" + wyn;
-                res = 1;
+                res = 0;
             }
             catch (System.Exception ex)
             {
